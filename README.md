@@ -1,4 +1,5 @@
 # Домашнее задание к лекции «Классы, наследование»
+[![Build status](https://ci.appveyor.com/api/projects/status/32irh3w2yd7fs2p6?svg=true)](https://ci.appveyor.com/project/Starina-Lokich/oop)
 
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
