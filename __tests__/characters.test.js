@@ -1,5 +1,3 @@
-// __tests__/characters.test.js
-
 import { Character, Bowman, Swordsman, Magician, Daemon, Undead, Zombie } from '../src/characters.js';
 
 describe('Character', () => {

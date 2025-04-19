@@ -1,5 +1,3 @@
-// src/characters.js
-
 class Character {
     constructor(name, type) {
       if (typeof name !== 'string' || name.length < 2 || name.length > 10) {

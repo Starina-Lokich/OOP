@@ -1,5 +1,3 @@
-// src/index.js
-
 import { Bowman, Swordsman, Magician, Daemon, Undead, Zombie } from './characters.js';
 
 const bowman = new Bowman('Лучник', 'Bowman');
