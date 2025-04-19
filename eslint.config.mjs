@@ -9,6 +9,11 @@ export default defineConfig([
   // Основная конфигурация для всех JavaScript-файлов
   {
     files: ['**/*.{js,mjs,cjs}'],
+    ignores: [
+      'dist/**/*', // Игнорируем папку с результатами сборки
+      'coverage/**/*.*', // Явно игнорируем все файлы в coverage/
+      '__tests__/**/*.snap', // Игнорируем snapshot-файлы Jest
+    ],
     languageOptions: {
       globals: {
         ...globals.browser,
